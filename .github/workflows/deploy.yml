@@ -16,7 +16,7 @@ jobs:
       - name: Copy and modify files
         run: |
           mkdir -p build
-          cp -r ./sources ./build/
+          cp -r ./sources/* build
           echo "Hello, World!" >> ./build/hello.txt
 
       - name: Deploy to GitHub Pages

@@ -1,0 +1,1 @@
+>&2 echo "Changes in 'pacakge_one'"
